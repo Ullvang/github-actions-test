@@ -1,10 +1,8 @@
 name: Actions Workflow
 
-on: 
+on:
   schedule:
     - cron: "0/6 1 * * *"
-  pull_request
-#comment
 
 jobs:
   run-github-actions:
