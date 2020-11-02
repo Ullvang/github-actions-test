@@ -1,6 +1,9 @@
 name: Actions Workflow
 
-on: [push, pull_request]
+on: 
+  schedule:
+    - cron: "0/6 1 * * *"
+  [pull_request]
 #comment
 
 jobs:
