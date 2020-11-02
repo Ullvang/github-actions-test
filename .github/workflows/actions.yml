@@ -3,7 +3,7 @@ name: Actions Workflow
 on: 
   schedule:
     - cron: "0/6 1 * * *"
-  [pull_request]
+  pull_request
 #comment
 
 jobs:
